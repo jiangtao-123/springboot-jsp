@@ -1,0 +1,540 @@
+2020-02-21 14:17:17.222 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 13644 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-02-21 14:17:17.229 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-02-21 14:17:17.234 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-02-21 14:17:18.931 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        Skipping MapperFactoryBean with name 'bsAttachmentMapper' and 'com.dongtech.bs.mapper.BsAttachmentMapper' mapperInterface. Bean already defined with the same name!
+2020-02-21 14:17:18.939 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        No MyBatis mapper was found in '[com.dongtech.bs.mapper]' package. Please check your configuration.
+2020-02-21 14:17:20.585 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-8081"]
+2020-02-21 14:17:20.601 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-02-21 14:17:20.601 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-02-21 14:17:20.606 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-02-21 14:17:20.607 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-21 14:17:20.607 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-21 14:17:21.715 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-02-21 14:17:22.110 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-02-21 14:17:22.115 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-02-21 14:17:23.755 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-02-21 14:17:25.256 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-02-21 14:17:25.277 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-02-21 14:17:25.354 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-02-21 14:17:25.630 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-02-21 14:17:26.188 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-8081"]
+2020-02-21 14:17:26.209 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-02-21 14:17:26.259 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 9.671 seconds (JVM running for 13.269)
+2020-02-21 14:17:28.531 [ http-nio-8081-exec-3 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-02-21 14:17:44.391 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:17:44.676 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:17:45.053 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：5A9A053A0075B9AC693E49A30DF81A13
+2020-02-21 14:17:45.053 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:17:45.897 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:17:46.523 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:17:46.842 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：5A9A053A0075B9AC693E49A30DF81A13
+2020-02-21 14:17:46.842 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:17:48.460 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:17:49.067 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:17:49.534 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：5A9A053A0075B9AC693E49A30DF81A13
+2020-02-21 14:17:49.538 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:17:50.338 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:17:50.757 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:17:51.073 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：5A9A053A0075B9AC693E49A30DF81A13
+2020-02-21 14:17:51.073 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:27:29.585 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 9916 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-02-21 14:27:29.587 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-02-21 14:27:29.592 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-02-21 14:27:31.751 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        Skipping MapperFactoryBean with name 'bsAttachmentMapper' and 'com.dongtech.bs.mapper.BsAttachmentMapper' mapperInterface. Bean already defined with the same name!
+2020-02-21 14:27:31.753 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        No MyBatis mapper was found in '[com.dongtech.bs.mapper]' package. Please check your configuration.
+2020-02-21 14:27:33.644 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-8081"]
+2020-02-21 14:27:33.663 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-02-21 14:27:33.664 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-02-21 14:27:33.671 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-02-21 14:27:33.672 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-21 14:27:33.672 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-21 14:27:34.863 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-02-21 14:27:35.438 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-02-21 14:27:35.460 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-02-21 14:27:37.770 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-02-21 14:27:39.179 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-02-21 14:27:39.210 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-02-21 14:27:39.279 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-02-21 14:27:39.540 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-02-21 14:27:40.152 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-8081"]
+2020-02-21 14:27:40.166 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-02-21 14:27:40.204 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 11.38 seconds (JVM running for 15.537)
+2020-02-21 14:27:42.392 [ http-nio-8081-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-02-21 14:27:56.945 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:27:57.326 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:27:57.657 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:27:57.657 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:27:58.189 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:27:58.657 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:27:59.128 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:27:59.129 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:28:00.467 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:28:01.021 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:28:01.538 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:28:01.539 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:28:34.356 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:28:34.689 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:28:34.944 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:28:34.945 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:28:40.748 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:28:41.092 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:28:41.432 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:28:41.432 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:28:41.786 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:28:42.050 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:28:42.358 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:28:42.358 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:29:11.025 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:29:11.454 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:29:11.769 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:29:11.769 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:29:11.887 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:29:12.364 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:29:12.819 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:29:12.820 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:29:49.998 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:29:50.578 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:29:50.949 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:29:50.949 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:30:03.765 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:30:04.180 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:30:04.463 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:30:04.464 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:35:01.226 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:35:01.665 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:35:02.002 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:35:02.002 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:37:27.350 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:37:27.835 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:37:28.118 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:37:28.119 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:37:59.726 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:38:00.161 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:38:00.437 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:38:00.438 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:38:37.347 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:38:37.852 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:38:38.243 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:38:38.245 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:41:45.203 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:41:45.568 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:41:45.835 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:41:45.835 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:41:54.404 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:41:54.818 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:41:55.134 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:41:55.135 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:42:26.135 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:42:26.602 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:42:26.921 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:42:26.921 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:44:10.044 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:44:10.524 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:44:10.850 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:44:10.850 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:47:19.461 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:47:19.775 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:47:20.005 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:47:20.005 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:47:22.889 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:47:23.303 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:47:23.654 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:47:23.654 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:47:41.599 [ http-nio-8081-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:47:42.110 [ http-nio-8081-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:47:42.391 [ http-nio-8081-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:47:42.391 [ http-nio-8081-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:48:24.211 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:48:24.806 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:48:25.093 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:48:25.094 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:49:29.624 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:49:30.077 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:49:30.342 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:49:30.342 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:50:04.590 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:50:04.996 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:50:05.318 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:50:05.318 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:50:38.198 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:50:38.802 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:50:39.137 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:50:39.137 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:50:47.644 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:50:48.091 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:50:48.345 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:50:48.345 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:51:11.092 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:51:11.670 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:51:11.926 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:51:11.926 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:52:11.230 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:52:11.762 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:52:12.214 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:52:12.215 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:53:08.547 [ http-nio-8081-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:53:09.095 [ http-nio-8081-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:53:09.351 [ http-nio-8081-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:53:09.352 [ http-nio-8081-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:53:30.121 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:53:30.602 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:53:30.957 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:53:30.957 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:53:48.943 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:53:49.372 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:53:49.727 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:53:49.727 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:54:55.413 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:54:55.752 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:54:56.322 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:54:56.322 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:55:04.560 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:55:05.089 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:55:05.468 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:55:05.468 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:55:05.722 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:55:06.033 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:55:06.322 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:55:06.322 [ http-nio-8081-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:55:29.264 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:55:29.709 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:55:29.982 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:55:29.983 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:57:02.508 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:57:02.870 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:57:03.136 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:57:03.136 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:57:17.034 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:57:17.398 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:57:17.710 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:57:17.710 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:57:33.775 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:57:34.225 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:57:34.501 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:57:34.501 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:58:16.084 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:58:16.540 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:58:16.824 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:58:16.825 [ http-nio-8081-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:58:22.067 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:58:22.467 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:58:22.743 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:58:22.744 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:58:30.131 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:58:30.600 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:58:30.930 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:58:30.931 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:58:30.933 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:58:31.286 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:58:31.562 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:58:31.563 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:58:47.005 [ http-nio-8081-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:58:47.446 [ http-nio-8081-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:58:47.695 [ http-nio-8081-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:58:47.695 [ http-nio-8081-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 14:59:46.380 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 14:59:46.900 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 14:59:47.193 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 14:59:47.194 [ http-nio-8081-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 15:00:32.114 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 15:00:32.431 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 15:00:32.745 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 15:00:32.746 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 15:00:35.553 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 15:00:35.933 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 15:00:36.224 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 15:00:36.225 [ http-nio-8081-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 15:00:44.264 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 15:00:44.664 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 15:00:44.919 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 15:00:44.919 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 15:01:35.909 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 15:01:36.235 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 15:01:36.482 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 15:01:36.482 [ http-nio-8081-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 15:02:10.283 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 15:02:10.632 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 15:02:11.030 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：CDD88BDC2D2E5A7D8E9024E22235E43E
+2020-02-21 15:02:11.030 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 44 ] -
+        已经登录过啦，用户信息为：UserEntity(id=4, name=admin, age=16, sex=    女, passWord=123456)
+2020-02-21 16:14:46.759 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 16:14:47.181 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 16:14:47.427 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：74EB03E3BE4AA9CC7C7B02BB7EFF0FF0
+2020-02-21 16:14:47.427 [ http-nio-8081-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 38 ] -
+        没有登录
+2020-02-21 16:14:48.150 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 16:14:48.269 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        ==========登录验证状态拦截================
+2020-02-21 16:14:48.563 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 16:14:48.617 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        是否通过验证：》》》《《《《《true
+2020-02-21 16:14:48.887 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：74EB03E3BE4AA9CC7C7B02BB7EFF0FF0
+2020-02-21 16:14:48.887 [ http-nio-8081-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 38 ] -
+        没有登录
+2020-02-21 16:14:48.942 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 34 ] -
+        sessionId为：74EB03E3BE4AA9CC7C7B02BB7EFF0FF0
+2020-02-21 16:14:48.942 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 38 ] -
+        没有登录

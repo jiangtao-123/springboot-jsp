@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfg>
+	<!-- 窗口位置的偏移 -->
+	<left>680</left>
+	<top>440</top>
+	<right>2</right>
+	<bottom>2</bottom>
+	
+	<!-- 画笔颜色-->
+	<R>0</R>
+	<G>0</G>
+	<B>0</B>
+	
+	<!--背景设置-->
+	<BR>255</BR>
+	<BG>255</BG>
+	<BB>255</BB>
+	<BT>255</BT> <!-- 透明度 0 - 255-->
+	
+</cfg>

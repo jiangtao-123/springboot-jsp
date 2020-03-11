@@ -1,0 +1,1052 @@
+2020-01-07 15:17:59.524 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 5560 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-07 15:17:59.540 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-07 15:17:59.556 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-07 15:18:04.148 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-80"]
+2020-01-07 15:18:04.166 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-07 15:18:04.167 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-07 15:18:04.179 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-07 15:18:04.180 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-07 15:18:04.180 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-07 15:18:05.251 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-07 15:18:05.636 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-07 15:18:05.748 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-07 15:18:07.475 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 15:18:08.770 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-07 15:18:08.799 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-07 15:18:08.850 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-07 15:18:09.030 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-07 15:18:09.202 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-80"]
+2020-01-07 15:18:09.215 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-07 15:18:09.257 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 10.654 seconds (JVM running for 20.477)
+2020-01-07 15:18:12.063 [ http-nio-80-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 15:18:12.117 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:18:12.123 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：000EE08896A251B123B7E48F9F79076D
+2020-01-07 15:18:12.123 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 30 ] -
+        没有登录
+2020-01-07 15:18:12.196 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 54 ] -
+        info日志打印》》》》》
+2020-01-07 15:18:12.197 [ http-nio-80-exec-2 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        debug日志打印》》》》》
+2020-01-07 15:19:45.066 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 9516 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-07 15:19:45.069 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-07 15:19:45.072 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-07 15:19:47.933 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-80"]
+2020-01-07 15:19:47.946 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-07 15:19:47.947 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-07 15:19:47.953 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-07 15:19:47.953 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-07 15:19:47.954 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-07 15:19:49.014 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-07 15:19:49.321 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-07 15:19:49.326 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-07 15:19:50.793 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 15:19:51.943 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-07 15:19:51.962 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-07 15:19:52.009 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-07 15:19:52.186 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-07 15:19:52.352 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-80"]
+2020-01-07 15:19:52.365 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-07 15:19:52.404 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 7.927 seconds (JVM running for 10.132)
+2020-01-07 15:19:54.129 [ http-nio-80-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 15:19:54.193 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:19:54.203 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：E140B9C18E1D333EAD15AC8FFF047899
+2020-01-07 15:19:54.204 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 30 ] -
+        没有登录
+2020-01-07 15:19:54.283 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 54 ] -
+        info日志打印》》》》》
+2020-01-07 15:19:54.284 [ http-nio-80-exec-2 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        debug日志打印》》》》》
+2020-01-07 15:20:02.167 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:20:02.168 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：E140B9C18E1D333EAD15AC8FFF047899
+2020-01-07 15:20:02.168 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:20:14.101 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:20:14.102 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：E140B9C18E1D333EAD15AC8FFF047899
+2020-01-07 15:20:14.102 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:20:18.403 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:20:18.404 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：E140B9C18E1D333EAD15AC8FFF047899
+2020-01-07 15:20:18.404 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:20:18.630 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:20:18.631 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：E140B9C18E1D333EAD15AC8FFF047899
+2020-01-07 15:20:18.631 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:20:25.113 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:20:25.114 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：E140B9C18E1D333EAD15AC8FFF047899
+2020-01-07 15:20:25.114 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:20:28.467 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:20:28.468 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：E140B9C18E1D333EAD15AC8FFF047899
+2020-01-07 15:20:28.468 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:20:28.677 [ http-nio-80-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:20:28.677 [ http-nio-80-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：E140B9C18E1D333EAD15AC8FFF047899
+2020-01-07 15:20:28.678 [ http-nio-80-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:20:33.474 [ http-nio-80-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:20:33.475 [ http-nio-80-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：E140B9C18E1D333EAD15AC8FFF047899
+2020-01-07 15:20:33.475 [ http-nio-80-exec-10 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:20:37.448 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:20:37.449 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：E140B9C18E1D333EAD15AC8FFF047899
+2020-01-07 15:20:37.449 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:20:37.809 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:20:37.809 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：E140B9C18E1D333EAD15AC8FFF047899
+2020-01-07 15:20:37.809 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:21:53.730 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 9020 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-07 15:21:53.732 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-07 15:21:53.735 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-07 15:21:56.422 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-80"]
+2020-01-07 15:21:56.433 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-07 15:21:56.434 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-07 15:21:56.438 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-07 15:21:56.439 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-07 15:21:56.439 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-07 15:21:57.505 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-07 15:21:57.760 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-07 15:21:57.766 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-07 15:21:59.146 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 15:22:00.089 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-07 15:22:00.104 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-07 15:22:00.139 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-07 15:22:00.288 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-07 15:22:00.426 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-80"]
+2020-01-07 15:22:00.436 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-07 15:22:00.468 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 7.605 seconds (JVM running for 9.369)
+2020-01-07 15:22:01.574 [ http-nio-80-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 15:22:01.681 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:22:01.737 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：8C524A1CBD307C240AC52BD408A07F3C
+2020-01-07 15:22:01.738 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 30 ] -
+        没有登录
+2020-01-07 15:22:02.009 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 54 ] -
+        info日志打印》》》》》
+2020-01-07 15:22:02.009 [ http-nio-80-exec-2 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        debug日志打印》》》》》
+2020-01-07 15:22:14.285 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:22:14.285 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：8C524A1CBD307C240AC52BD408A07F3C
+2020-01-07 15:22:14.286 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:22:14.891 [ http-nio-80-exec-3 ] - [ ERROR ] [ o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] : 182 ] -
+        Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: SQLite JDBC: inconsistent internal state] with root cause
+java.lang.IllegalStateException: SQLite JDBC: inconsistent internal state
+	at org.sqlite.core.CoreResultSet.checkCol(CoreResultSet.java:81)
+	at org.sqlite.jdbc3.JDBC3ResultSet.getColumnCount(JDBC3ResultSet.java:693)
+	at com.dongtech.utils.DB.Populate(DB.java:135)
+	at com.dongtech.bs.mapper.UserMapper.selectAll(UserMapper.java:56)
+	at com.dongtech.bs.service.impl.UserServerimpl.selectAll(UserServerimpl.java:27)
+	at com.dongtech.bs.controller.LoginContrller.toMain(LoginContrller.java:65)
+	at com.dongtech.bs.controller.LoginContrller$$FastClassBySpringCGLIB$$419dbc40.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.dongtech.bs.controller.LoginContrller$$EnhancerBySpringCGLIB$$837ec52a.toMain(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2020-01-07 15:22:14.905 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:22:14.905 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：8C524A1CBD307C240AC52BD408A07F3C
+2020-01-07 15:22:14.905 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:23:42.087 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 9748 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-07 15:23:42.090 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-07 15:23:42.095 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-07 15:23:45.053 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-80"]
+2020-01-07 15:23:45.065 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-07 15:23:45.065 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-07 15:23:45.070 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-07 15:23:45.070 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-07 15:23:45.071 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-07 15:23:46.125 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-07 15:23:46.392 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-07 15:23:46.398 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-07 15:23:47.599 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 15:23:48.512 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-07 15:23:48.528 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-07 15:23:48.562 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-07 15:23:48.699 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-07 15:23:48.853 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-80"]
+2020-01-07 15:23:48.863 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-07 15:23:48.891 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 7.929 seconds (JVM running for 9.535)
+2020-01-07 15:23:49.457 [ http-nio-80-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 15:23:49.526 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:23:49.534 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F4D332F4555A845D822616D4CBA5CAD1
+2020-01-07 15:23:49.534 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 30 ] -
+        没有登录
+2020-01-07 15:23:49.606 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 54 ] -
+        info日志打印》》》》》
+2020-01-07 15:23:49.606 [ http-nio-80-exec-2 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        debug日志打印》》》》》
+2020-01-07 15:23:56.315 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:23:56.316 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F4D332F4555A845D822616D4CBA5CAD1
+2020-01-07 15:23:56.317 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:23:58.593 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:23:58.594 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F4D332F4555A845D822616D4CBA5CAD1
+2020-01-07 15:23:58.594 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:24:02.854 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:24:02.855 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F4D332F4555A845D822616D4CBA5CAD1
+2020-01-07 15:24:02.855 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:24:03.028 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:24:03.029 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F4D332F4555A845D822616D4CBA5CAD1
+2020-01-07 15:24:03.029 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:29:26.694 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 10112 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-07 15:29:26.699 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-07 15:29:26.705 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-07 15:29:29.851 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-80"]
+2020-01-07 15:29:29.865 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-07 15:29:29.866 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-07 15:29:29.873 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-07 15:29:29.873 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-07 15:29:29.873 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-07 15:29:30.934 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-07 15:29:31.218 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-07 15:29:31.224 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-07 15:29:32.769 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 15:29:33.910 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-07 15:29:33.930 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-07 15:29:33.975 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-07 15:29:34.150 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-07 15:29:34.282 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-80"]
+2020-01-07 15:29:34.298 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-07 15:29:34.331 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 8.774 seconds (JVM running for 10.975)
+2020-01-07 15:29:35.349 [ http-nio-80-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 15:29:35.435 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:29:35.444 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：D5BFD282AAAB1184DACFB3CD3AF77E0F
+2020-01-07 15:29:35.444 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 30 ] -
+        没有登录
+2020-01-07 15:29:35.566 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 54 ] -
+        info日志打印》》》》》
+2020-01-07 15:29:35.567 [ http-nio-80-exec-2 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        debug日志打印》》》》》
+2020-01-07 15:29:48.106 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:29:48.107 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：D5BFD282AAAB1184DACFB3CD3AF77E0F
+2020-01-07 15:29:48.107 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:29:50.835 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:29:50.836 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：D5BFD282AAAB1184DACFB3CD3AF77E0F
+2020-01-07 15:29:50.836 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:29:57.476 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:29:57.477 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：D5BFD282AAAB1184DACFB3CD3AF77E0F
+2020-01-07 15:29:57.477 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:29:57.996 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:29:57.996 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：D5BFD282AAAB1184DACFB3CD3AF77E0F
+2020-01-07 15:29:57.996 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:30:00.623 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:30:00.624 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：D5BFD282AAAB1184DACFB3CD3AF77E0F
+2020-01-07 15:30:00.624 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:30:10.121 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:30:10.122 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：D5BFD282AAAB1184DACFB3CD3AF77E0F
+2020-01-07 15:30:10.122 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:30:10.298 [ http-nio-80-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:30:10.298 [ http-nio-80-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：D5BFD282AAAB1184DACFB3CD3AF77E0F
+2020-01-07 15:30:10.298 [ http-nio-80-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:34:07.281 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 9580 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-07 15:34:07.284 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-07 15:34:07.288 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-07 15:34:10.392 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-80"]
+2020-01-07 15:34:10.408 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-07 15:34:10.409 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-07 15:34:10.416 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-07 15:34:10.416 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-07 15:34:10.417 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-07 15:34:11.487 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-07 15:34:11.804 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-07 15:34:11.809 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-07 15:34:13.516 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 15:34:14.886 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-07 15:34:14.908 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-07 15:34:14.962 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-07 15:34:15.155 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-07 15:34:15.320 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-80"]
+2020-01-07 15:34:15.332 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-07 15:34:15.374 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 9.097 seconds (JVM running for 10.984)
+2020-01-07 15:34:16.827 [ http-nio-80-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 15:34:16.882 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:34:16.892 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：B5BAE17AEB93D643526704248A750840
+2020-01-07 15:34:16.893 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 30 ] -
+        没有登录
+2020-01-07 15:34:16.952 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 54 ] -
+        info日志打印》》》》》
+2020-01-07 15:34:16.952 [ http-nio-80-exec-2 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        debug日志打印》》》》》
+2020-01-07 15:34:25.790 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:34:25.791 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：B5BAE17AEB93D643526704248A750840
+2020-01-07 15:34:25.792 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:34:28.217 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:34:28.217 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：B5BAE17AEB93D643526704248A750840
+2020-01-07 15:34:28.218 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:34:37.986 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:34:37.986 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：B5BAE17AEB93D643526704248A750840
+2020-01-07 15:34:37.986 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:34:38.021 [ http-nio-80-exec-5 ] - [ ERROR ] [ o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] : 182 ] -
+        Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.lang.String cannot be cast to com.dongtech.bs.entity.UserEntity] with root cause
+java.lang.ClassCastException: java.lang.String cannot be cast to com.dongtech.bs.entity.UserEntity
+	at com.dongtech.syslog.SystemLogAspect.doBefore(SystemLogAspect.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:626)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:44)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:174)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.dongtech.bs.controller.LoginContrller$$EnhancerBySpringCGLIB$$69656717.save(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2020-01-07 15:34:38.032 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:34:38.033 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：B5BAE17AEB93D643526704248A750840
+2020-01-07 15:34:38.033 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：登录测试
+2020-01-07 15:36:15.430 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 9976 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-07 15:36:15.433 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-07 15:36:15.436 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-07 15:36:18.450 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-80"]
+2020-01-07 15:36:18.465 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-07 15:36:18.466 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-07 15:36:18.472 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-07 15:36:18.473 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-07 15:36:18.473 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-07 15:36:19.545 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-07 15:36:19.885 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-07 15:36:19.890 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-07 15:36:21.404 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 15:36:22.586 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-07 15:36:22.606 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-07 15:36:22.653 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-07 15:36:22.837 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-07 15:36:22.989 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-80"]
+2020-01-07 15:36:23.001 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-07 15:36:23.038 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 8.751 seconds (JVM running for 10.684)
+2020-01-07 15:36:24.507 [ http-nio-80-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 15:36:24.621 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:36:24.639 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：A9A07BEA5DB6E13E6EB1BA1F905CA4F9
+2020-01-07 15:36:24.640 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 30 ] -
+        没有登录
+2020-01-07 15:36:24.733 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        info日志打印》》》》》
+2020-01-07 15:36:24.733 [ http-nio-80-exec-2 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 56 ] -
+        debug日志打印》》》》》
+2020-01-07 15:36:34.876 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:36:34.877 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：A9A07BEA5DB6E13E6EB1BA1F905CA4F9
+2020-01-07 15:36:34.878 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:36:46.590 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:36:46.591 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：A9A07BEA5DB6E13E6EB1BA1F905CA4F9
+2020-01-07 15:36:46.591 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:36:51.154 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:36:51.155 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：A9A07BEA5DB6E13E6EB1BA1F905CA4F9
+2020-01-07 15:36:51.155 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:36:51.346 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:36:51.347 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：A9A07BEA5DB6E13E6EB1BA1F905CA4F9
+2020-01-07 15:36:51.347 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:39:25.631 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 9240 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-07 15:39:25.634 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-07 15:39:25.636 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-07 15:39:28.815 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-80"]
+2020-01-07 15:39:28.830 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-07 15:39:28.830 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-07 15:39:28.836 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-07 15:39:28.837 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-07 15:39:28.837 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-07 15:39:29.898 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-07 15:39:30.212 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-07 15:39:30.220 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-07 15:39:31.837 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 15:39:33.264 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-07 15:39:33.287 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-07 15:39:33.337 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-07 15:39:33.517 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-07 15:39:33.666 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-80"]
+2020-01-07 15:39:33.679 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-07 15:39:33.715 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 9.165 seconds (JVM running for 11.088)
+2020-01-07 15:39:35.559 [ http-nio-80-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 15:39:35.664 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:39:35.674 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：2B69071204992617032EAAB54E480B85
+2020-01-07 15:39:35.675 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 30 ] -
+        没有登录
+2020-01-07 15:39:49.058 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        info日志打印》》》》》
+2020-01-07 15:39:49.059 [ http-nio-80-exec-1 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 56 ] -
+        debug日志打印》》》》》
+2020-01-07 15:40:03.139 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:40:03.141 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：2B69071204992617032EAAB54E480B85
+2020-01-07 15:40:03.142 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:40:13.774 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:40:13.775 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：2B69071204992617032EAAB54E480B85
+2020-01-07 15:40:13.775 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:40:19.785 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:40:19.786 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：2B69071204992617032EAAB54E480B85
+2020-01-07 15:40:19.786 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:41:11.060 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:41:11.060 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：2B69071204992617032EAAB54E480B85
+2020-01-07 15:41:11.061 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:56:31.187 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 10084 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-07 15:56:31.191 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-07 15:56:31.194 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-07 15:56:34.719 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-80"]
+2020-01-07 15:56:34.733 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-07 15:56:34.733 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-07 15:56:34.739 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-07 15:56:34.740 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-07 15:56:34.741 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-07 15:56:35.804 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-07 15:56:36.094 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-07 15:56:36.100 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-07 15:56:37.664 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 15:56:38.916 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-07 15:56:38.940 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-07 15:56:38.986 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-07 15:56:39.200 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-07 15:56:39.371 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-80"]
+2020-01-07 15:56:39.384 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-07 15:56:39.426 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 9.312 seconds (JVM running for 11.267)
+2020-01-07 15:56:40.632 [ http-nio-80-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 15:56:40.685 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:56:40.691 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：599BAACD2AA55DC721F1D67D53548E60
+2020-01-07 15:56:40.692 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 30 ] -
+        没有登录
+2020-01-07 15:56:48.078 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        info日志打印》》》》》
+2020-01-07 15:56:48.078 [ http-nio-80-exec-2 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 56 ] -
+        debug日志打印》》》》》
+2020-01-07 15:57:27.613 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:57:27.614 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：599BAACD2AA55DC721F1D67D53548E60
+2020-01-07 15:57:27.614 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:57:29.232 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:57:29.232 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：599BAACD2AA55DC721F1D67D53548E60
+2020-01-07 15:57:29.233 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:57:33.035 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:57:33.036 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：599BAACD2AA55DC721F1D67D53548E60
+2020-01-07 15:57:33.037 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:57:37.684 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:57:37.684 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：599BAACD2AA55DC721F1D67D53548E60
+2020-01-07 15:57:37.685 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:59:23.044 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 9428 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-07 15:59:23.046 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-07 15:59:23.052 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-07 15:59:26.413 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-80"]
+2020-01-07 15:59:26.434 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-07 15:59:26.435 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-07 15:59:26.439 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-07 15:59:26.440 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-07 15:59:26.440 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-07 15:59:27.514 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-07 15:59:27.854 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-07 15:59:27.859 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-07 15:59:29.097 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 15:59:30.104 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-07 15:59:30.124 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-07 15:59:30.176 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-07 15:59:30.376 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-07 15:59:30.560 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-80"]
+2020-01-07 15:59:30.571 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-07 15:59:30.605 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 8.447 seconds (JVM running for 10.072)
+2020-01-07 15:59:31.790 [ http-nio-80-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 15:59:31.891 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:59:31.898 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：300D47C558CB4006737C5720224CB57D
+2020-01-07 15:59:31.899 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 30 ] -
+        没有登录
+2020-01-07 15:59:32.915 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        info日志打印》》》》》
+2020-01-07 15:59:32.916 [ http-nio-80-exec-2 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 56 ] -
+        debug日志打印》》》》》
+2020-01-07 15:59:41.798 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        info日志打印》》》》》
+2020-01-07 15:59:41.799 [ http-nio-80-exec-3 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 56 ] -
+        debug日志打印》》》》》
+2020-01-07 15:59:50.039 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:59:50.040 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F6846234E5CEAE2DD613ED1D413A6402
+2020-01-07 15:59:50.040 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:59:50.061 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:59:50.061 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F6846234E5CEAE2DD613ED1D413A6402
+2020-01-07 15:59:50.062 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:59:50.067 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:59:50.068 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F6846234E5CEAE2DD613ED1D413A6402
+2020-01-07 15:59:50.068 [ http-nio-80-exec-5 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:59:50.139 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:59:50.140 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F6846234E5CEAE2DD613ED1D413A6402
+2020-01-07 15:59:50.140 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:59:50.143 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:59:50.143 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F6846234E5CEAE2DD613ED1D413A6402
+2020-01-07 15:59:50.143 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:59:50.393 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:59:50.393 [ http-nio-80-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:59:50.393 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F6846234E5CEAE2DD613ED1D413A6402
+2020-01-07 15:59:50.394 [ http-nio-80-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F6846234E5CEAE2DD613ED1D413A6402
+2020-01-07 15:59:50.394 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:59:50.394 [ http-nio-80-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:59:50.397 [ http-nio-80-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:59:50.397 [ http-nio-80-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F6846234E5CEAE2DD613ED1D413A6402
+2020-01-07 15:59:50.397 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 15:59:50.397 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F6846234E5CEAE2DD613ED1D413A6402
+2020-01-07 15:59:50.397 [ http-nio-80-exec-9 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 15:59:50.398 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 16:00:34.516 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 16:00:34.516 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：F6846234E5CEAE2DD613ED1D413A6402
+2020-01-07 16:00:34.518 [ http-nio-80-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 16:03:25.459 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 6856 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-07 16:03:25.462 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-07 16:03:25.465 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-07 16:03:28.996 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-80"]
+2020-01-07 16:03:29.026 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-07 16:03:29.026 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-07 16:03:29.035 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-07 16:03:29.035 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-07 16:03:29.036 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-07 16:03:30.117 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-07 16:03:30.436 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-07 16:03:30.442 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-07 16:03:31.899 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 16:03:33.096 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-07 16:03:33.121 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-07 16:03:33.175 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-07 16:03:33.368 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-07 16:03:33.522 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-80"]
+2020-01-07 16:03:33.535 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-07 16:03:33.573 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 9.448 seconds (JVM running for 11.197)
+2020-01-07 16:03:34.686 [ http-nio-80-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 16:03:34.849 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 16:03:34.859 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：D68AC856208E2AE36BFD68EE38554AC0
+2020-01-07 16:03:34.860 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 30 ] -
+        没有登录
+2020-01-07 16:03:37.106 [ http-nio-80-exec-1 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        info日志打印》》》》》
+2020-01-07 16:03:37.106 [ http-nio-80-exec-1 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 56 ] -
+        debug日志打印》》》》》
+2020-01-07 16:03:45.746 [ http-nio-80-exec-3 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        info日志打印》》》》》
+2020-01-07 16:03:45.747 [ http-nio-80-exec-3 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 56 ] -
+        debug日志打印》》》》》
+2020-01-07 16:03:50.244 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 16:03:50.245 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：2760C8A29997AA50CB1BBDBE540D5B6D
+2020-01-07 16:03:50.245 [ http-nio-80-exec-4 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 16:03:50.611 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 16:03:50.611 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 16:03:50.612 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：2760C8A29997AA50CB1BBDBE540D5B6D
+2020-01-07 16:03:50.613 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：2760C8A29997AA50CB1BBDBE540D5B6D
+2020-01-07 16:03:50.613 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 16:03:50.614 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 16:03:50.620 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 16:03:50.620 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 16:03:50.620 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：2760C8A29997AA50CB1BBDBE540D5B6D
+2020-01-07 16:03:50.620 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：2760C8A29997AA50CB1BBDBE540D5B6D
+2020-01-07 16:03:50.621 [ http-nio-80-exec-6 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 16:03:50.621 [ http-nio-80-exec-7 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-07 16:03:59.088 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 23 ] -
+        ==========登录状态拦截================
+2020-01-07 16:03:59.089 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 26 ] -
+        sessionId为：2760C8A29997AA50CB1BBDBE540D5B6D
+2020-01-07 16:03:59.089 [ http-nio-80-exec-8 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 35 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)

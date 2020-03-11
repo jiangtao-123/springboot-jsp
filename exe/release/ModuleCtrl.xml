@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigManagement>
+	<OpenDevchangeThread>0</OpenDevchangeThread>
+	<WriteLog>0</WriteLog>
+	<OcrIDCardBW>0</OcrIDCardBW>
+	<nDrawRect>1</nDrawRect>
+	<ReadLicenseByXml>1</ReadLicenseByXml>
+	<CredentialsOtr>0</CredentialsOtr>
+	<ReadLicenseOnDevThread>0</ReadLicenseOnDevThread>
+	<PutImageThread>0</PutImageThread>
+	<UploadFile>Filedata</UploadFile>
+	<nPreviewYUY2>0</nPreviewYUY2>
+	<nRecordMethod>0</nRecordMethod>
+	<nSetWindowLong>1</nSetWindowLong>
+</ConfigManagement>

@@ -1,0 +1,256 @@
+2020-01-16 09:46:25.718 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 12120 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-16 09:46:25.738 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-16 09:46:25.752 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-16 09:46:32.445 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        Skipping MapperFactoryBean with name 'bsAttachmentMapper' and 'com.dongtech.bs.mapper.BsAttachmentMapper' mapperInterface. Bean already defined with the same name!
+2020-01-16 09:46:32.454 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        No MyBatis mapper was found in '[com.dongtech.bs.mapper]' package. Please check your configuration.
+2020-01-16 09:46:34.914 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-8081"]
+2020-01-16 09:46:34.952 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-16 09:46:34.953 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-16 09:46:34.965 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-16 09:46:34.965 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-16 09:46:34.966 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-16 09:46:36.187 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-16 09:46:37.027 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-16 09:46:37.045 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-16 09:46:38.965 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-16 09:46:40.136 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-16 09:46:40.184 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-16 09:46:40.223 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-16 09:46:40.455 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-16 09:46:40.890 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-8081"]
+2020-01-16 09:46:40.903 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-16 09:46:41.012 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 18.937 seconds (JVM running for 22.454)
+2020-01-16 09:46:46.909 [ http-nio-8081-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-16 09:46:49.119 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        info日志打印》》》》》
+2020-01-16 09:46:49.120 [ http-nio-8081-exec-1 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 56 ] -
+        debug日志打印》》》》》
+2020-01-16 09:46:51.069 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 24 ] -
+        ==========登录状态拦截================
+2020-01-16 09:46:51.070 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 27 ] -
+        sessionId为：0FC720543021E12EF3DCF46A594CF86A
+2020-01-16 09:46:51.071 [ http-nio-8081-exec-2 ] - [ INFO  ] [ com.dongtech.bs.interceptor.LoginInterceptor : 37 ] -
+        已经登录过啦，用户信息为：UserEntity(id=0, name=admin, age=null, sex=null, passWord=null)
+2020-01-16 09:48:28.731 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 12348 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-16 09:48:28.733 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-16 09:48:28.736 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-16 09:48:30.427 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        Skipping MapperFactoryBean with name 'bsAttachmentMapper' and 'com.dongtech.bs.mapper.BsAttachmentMapper' mapperInterface. Bean already defined with the same name!
+2020-01-16 09:48:30.428 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        No MyBatis mapper was found in '[com.dongtech.bs.mapper]' package. Please check your configuration.
+2020-01-16 09:48:31.682 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-8081"]
+2020-01-16 09:48:31.693 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-16 09:48:31.693 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-16 09:48:31.699 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-16 09:48:31.700 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-16 09:48:31.700 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-16 09:48:32.788 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-16 09:48:33.106 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-16 09:48:33.111 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-16 09:48:34.369 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-16 09:48:35.269 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-16 09:48:35.291 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-16 09:48:35.336 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-16 09:48:35.493 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-16 09:48:35.644 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-8081"]
+2020-01-16 09:48:35.656 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-16 09:48:35.690 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 7.885 seconds (JVM running for 9.556)
+2020-01-16 09:48:37.946 [ http-nio-8081-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-16 09:48:39.122 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        info日志打印》》》》》
+2020-01-16 09:48:39.123 [ http-nio-8081-exec-1 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 56 ] -
+        debug日志打印》》》》》
+2020-01-16 09:55:22.417 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 14884 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-16 09:55:22.420 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-16 09:55:22.424 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-16 09:55:23.728 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        Skipping MapperFactoryBean with name 'bsAttachmentMapper' and 'com.dongtech.bs.mapper.BsAttachmentMapper' mapperInterface. Bean already defined with the same name!
+2020-01-16 09:55:23.729 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        No MyBatis mapper was found in '[com.dongtech.bs.mapper]' package. Please check your configuration.
+2020-01-16 09:55:24.896 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-8081"]
+2020-01-16 09:55:24.914 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-16 09:55:24.915 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-16 09:55:24.921 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-16 09:55:24.922 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-16 09:55:24.922 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-16 09:55:25.998 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-16 09:55:26.284 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-16 09:55:26.289 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-16 09:55:27.450 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-16 09:55:28.336 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-16 09:55:28.352 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-16 09:55:28.388 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-16 09:55:28.529 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-16 09:55:28.690 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-8081"]
+2020-01-16 09:55:28.699 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-16 09:55:28.749 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 7.089 seconds (JVM running for 9.221)
+2020-01-16 09:55:31.068 [ http-nio-8081-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-16 09:55:31.921 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        info日志打印》》》》》
+2020-01-16 09:55:31.922 [ http-nio-8081-exec-1 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 56 ] -
+        debug日志打印》》》》》
+2020-01-16 09:58:52.612 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 9000 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-16 09:58:52.615 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-16 09:58:52.620 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-16 09:58:54.168 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        Skipping MapperFactoryBean with name 'bsAttachmentMapper' and 'com.dongtech.bs.mapper.BsAttachmentMapper' mapperInterface. Bean already defined with the same name!
+2020-01-16 09:58:54.169 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        No MyBatis mapper was found in '[com.dongtech.bs.mapper]' package. Please check your configuration.
+2020-01-16 09:58:55.268 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-8081"]
+2020-01-16 09:58:55.279 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-16 09:58:55.280 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-16 09:58:55.285 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-16 09:58:55.286 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-16 09:58:55.286 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-16 09:58:56.356 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-16 09:58:56.603 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-16 09:58:56.609 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-16 09:58:57.769 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-16 09:58:58.663 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-16 09:58:58.678 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-16 09:58:58.713 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-16 09:58:58.853 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-16 09:58:58.984 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-8081"]
+2020-01-16 09:58:58.995 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-16 09:58:59.026 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 7.109 seconds (JVM running for 8.598)
+2020-01-16 09:59:01.345 [ http-nio-8081-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-16 09:59:02.234 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        info日志打印》》》》》
+2020-01-16 09:59:02.235 [ http-nio-8081-exec-1 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 56 ] -
+        debug日志打印》》》》》
+2020-01-16 10:11:01.872 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 50 ] -
+        Starting SpringbootJspApplication on PC-201909172010 with PID 9536 (started by Administrator in F:\Myeclipse 10\springboot-jsp-master)
+2020-01-16 10:11:01.874 [ restartedMain ] - [ DEBUG ] [ com.dongtech.SpringbootJspApplication : 53 ] -
+        Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2020-01-16 10:11:01.877 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 662 ] -
+        No active profile set, falling back to default profiles: default
+2020-01-16 10:11:04.113 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        Skipping MapperFactoryBean with name 'bsAttachmentMapper' and 'com.dongtech.bs.mapper.BsAttachmentMapper' mapperInterface. Bean already defined with the same name!
+2020-01-16 10:11:04.115 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] -
+        No MyBatis mapper was found in '[com.dongtech.bs.mapper]' package. Please check your configuration.
+2020-01-16 10:11:06.159 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Initializing ProtocolHandler ["http-nio-8081"]
+2020-01-16 10:11:06.179 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] -
+        Starting service [Tomcat]
+2020-01-16 10:11:06.179 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] -
+        Starting Servlet Engine: Apache Tomcat/8.5.32
+2020-01-16 10:11:06.185 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-01-16 10:11:06.186 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-16 10:11:06.186 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-16 10:11:07.274 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] -
+        OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-01-16 10:11:07.665 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.jasper.servlet.TldScanner : 180 ] -
+        At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-16 10:11:07.670 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring embedded WebApplicationContext
+2020-01-16 10:11:09.508 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] -
+        Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-16 10:11:10.932 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 147 ] -
+        Context refreshed
+2020-01-16 10:11:10.964 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 150 ] -
+        Found 1 custom documentation plugin(s)
+2020-01-16 10:11:11.021 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] -
+        Scanning for api listing references
+2020-01-16 10:11:11.296 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] -
+        Generating unique operation named: addGoodsImgUsingPOST_1
+2020-01-16 10:11:11.473 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] -
+        Starting ProtocolHandler ["http-nio-8081"]
+2020-01-16 10:11:11.486 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] -
+        Using a shared selector for servlet write/read
+2020-01-16 10:11:11.538 [ restartedMain ] - [ INFO  ] [ com.dongtech.SpringbootJspApplication : 59 ] -
+        Started SpringbootJspApplication in 10.854 seconds (JVM running for 13.114)
+2020-01-16 10:11:14.386 [ http-nio-8081-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] -
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-16 10:11:16.464 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.dongtech.bs.controller.LoginContrller : 55 ] -
+        info日志打印》》》》》
+2020-01-16 10:11:16.465 [ http-nio-8081-exec-1 ] - [ DEBUG ] [ com.dongtech.bs.controller.LoginContrller : 56 ] -
+        debug日志打印》》》》》

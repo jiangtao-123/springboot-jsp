@@ -1,0 +1,44 @@
+; MainConcept MJPG software codec
+;
+; Author: Sergej R. Grigoriev
+;
+
+[version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles=MJPG.Files.Inf,MJPG.Files.Dll
+AddReg=MJPG.Reg
+UpdateInis=MJPG.INIs
+
+[DefaultUnInstall]
+DelFiles=MJPG.Files.Dll,MJPG.Files.Inf
+DelReg=MJPG.Reg
+UpdateInis=MJPG.INIs.Del
+
+[SourceDisksNames]
+1="MainConcept MJPG software codec","",1
+
+[SourceDisksFiles]
+MCMJPG.INF=1
+
+[DestinationDirs]
+MJPG.Files.Inf=17
+MJPG.Files.Dll=11
+
+[MJPG.Files.Inf]
+MCMJPG.INF
+
+[MJPG.Files.Dll]
+mcmjpg32.dll
+
+[MJPG.Reg]
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\MCMJPG
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\MCMJPG,DisplayName,,"MainConcept MJPG software codec (Remove Only)"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\MCMJPG,UninstallString,,"rundll.exe setupx.dll,InstallHinfSection DefaultUninstall 132 %17%\MCMJPG.INF"
+
+[MJPG.INIs]
+system.ini, drivers32,, "VIDC.mjpg=mcmjpg32.dll"
+
+[MJPG.INIs.Del]
+system.ini, drivers32, "VIDC.mjpg=mcmjpg32.dll"
